@@ -61,13 +61,13 @@ Embarking on this project was my introduction to TypeScript, and it significantl
 ## Screenshots
 
 - **Quiz Interface**  
-  ![Quiz Interface](public/bg-quiz)
+  ![Quiz Interface](public/bg-quiz.png)
 
 - **Question Right**  
-  ![Right Answer](public/bg-quiz-right)
+  ![Right Answer](public/bg-quiz-right.png)
 
 - **Question Wrong**  
-  ![Wrong Answer](public/bg-quiz-wrong)
+  ![Wrong Answer](public/bg-quiz-wrong.png)
 
 ---
 
