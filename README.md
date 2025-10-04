@@ -60,8 +60,6 @@ Embarking on this project was my introduction to TypeScript, and it significantl
 
 ## Screenshots
 
-> _(Add relevant screenshots or GIFs of the quiz in action)_
-
 - **Quiz Interface**  
   ![Quiz Interface](public/bg-quiz)
 
