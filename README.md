@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+# BoardGame Quiz 🎲
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun and interactive quiz app designed to test your knowledge of board games. Built with React and TypeScript, this project marks my first venture into TypeScript development.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Live Demo](#live-demo)
+- [Features](#features)
+- [Data Source](#data-source)
+- [What I Learned](#what-i-learned)
+- [Tech Stack](#tech-stack)
+- [Screenshots](#screenshots)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Live Demo
 
-### `npm test`
+Experience the quiz here: [BoardGame Quiz](https://spinksboardgamequiz.netlify.app/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Multiple Choice Questions**: Engage with a variety of board game-related questions.
+- **Score Tracking**: Keep track of your score as you progress through the quiz.
+- **Responsive Design**: Enjoy a seamless experience across devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Data Source
 
-### `npm run eject`
+- Quiz questions are fetched dynamically from an **external trivia API**.  
+- Questions are focused on the **board games category**, with multiple-choice options and varying difficulty levels.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## What I Learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Embarking on this project was my introduction to TypeScript, and it significantly enhanced my development skills:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- ✅ Gained proficiency in **TypeScript syntax** and **type annotations**.
+- ✅ Implemented **React functional components** with hooks.
+- ✅ Managed **state** using React's `useState` and `useEffect` hooks.
+- ✅ Utilized **TypeScript interfaces** to define component props and state.
+- ✅ Fetched and handled **external API data** dynamically.
+- ✅ Improved debugging and code quality through **static typing**.
+- ✅ Enhanced understanding of **ES6+ features** and **modern JavaScript** practices.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Frontend**: React, TypeScript, CSS
+- **API**: External trivia API (Board Games category)
+- **Hosting / Deployment**: Netlify
+
+---
+
+## Screenshots
+
+> _(Add relevant screenshots or GIFs of the quiz in action)_
+
+- **Quiz Interface**  
+  ![Quiz Interface](public/bg-quiz)
+
+- **Question Right**  
+  ![Right Answer](public/bg-quiz-right)
+
+- **Question Wrong**  
+  ![Wrong Answer](public/bg-quiz-wrong)
+
+---
+
